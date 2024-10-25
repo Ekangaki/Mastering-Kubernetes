@@ -104,4 +104,7 @@ kubectl apply -f votingapp-gw-vs-ssl.yaml -n default
 
 Use Kiali and Jaeger in the Istio namespace to monitor and trace your services.
 
+https://chatgpt.com/share/671b4bde-a39c-8005-a154-3409a8a552db
+
+
 ---
