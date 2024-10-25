@@ -2,7 +2,8 @@
 # This is mainly used for microservices architecture, Example swiggy which have 400+ MS.
 # Imagine there are lot of Microservices and if you wanted them to dedicatedly inter connect then we need service mesh connection -->
 
-# Install ISTIO under usr/local/bin  
+# Install ISTIO under usr/local/bin
+$ cd usr/local/bin
 
 curl -L https://istio.io/downloadIstio | ISTIO_VERSION=1.18.0 sh -
 cp istio-1.18.0/bin/istioctl /usr/local/bin/
