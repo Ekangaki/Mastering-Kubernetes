@@ -11,7 +11,8 @@ istioctl --version
 
 -------------------------------------------------------------------------------------------------
 
-nano /tmp/istio-ingressgateway.yml  
+$ vi /tmp/istio-ingressgateway.yml
+# Save istio-ingressgateway.yml file
 # Before deploying we need to give the below command and then we need to pass the below yaml file in the command.
 istioctl install --set profile=minimal -f istio-ingressgateway.yml
 
